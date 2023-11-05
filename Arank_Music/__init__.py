@@ -1,4 +1,4 @@
-from Arank_Music.core.Aɾαɳƙ Mυʂιƈ
+from Arank_Music.core.Arank_Music
 from Arank_Music.core.dir import dirr
 from Arank_Music.core.git import git
 from Arank_Music.core.userbot import Userbot
