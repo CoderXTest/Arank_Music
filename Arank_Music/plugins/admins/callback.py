@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from AnonXMusic import YouTube, app
-from AnonXMusic.core.call import Anony
+from AnonXMusic.core.call import Arank
 from AnonXMusic.misc import SUDOERS, db
 from AnonXMusic.utils.database import (
     get_active_chats,
@@ -135,7 +135,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             return await CallbackQuery.answer(_["admin_1"], show_alert=True)
         await CallbackQuery.answer()
         await music_off(chat_id)
-        await Anony.pause_stream(chat_id)
+        await Arank.pause_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_2"].format(mention), reply_markup=close_markup(_)
         )
