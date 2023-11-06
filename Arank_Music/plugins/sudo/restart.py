@@ -18,7 +18,7 @@ from Arank_Music.utils.database import (
     remove_active_video_chat,
 )
 from Arank_Music.utils.decorators.language import language
-from Arank_Music.utils.pastebin import AnonyBin
+from Arank_Music.utils.pastebin import ArankBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
