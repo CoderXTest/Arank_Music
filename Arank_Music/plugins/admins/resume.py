@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.utils.database import is_music_playing, music_on
-from AnonXMusic.utils.decorators import AdminRightsCheck
-from AnonXMusic.utils.inline import close_markup
+from Arank_Music import app
+from Arank_Music.core.call import Anony
+from Arank_Music.utils.database import is_music_playing, music_on
+from Arank_Music.utils.decorators import AdminRightsCheck
+from Arank_Music.utils.inline import close_markup
 from config import BANNED_USERS
 
 
