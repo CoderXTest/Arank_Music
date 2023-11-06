@@ -16,9 +16,10 @@ heroku()
 app = Arank()
 userbot = Userbot()
 
-from .platforms import *  # Importing all from the "platforms" module
+from .platforms import * 
 
 # Assuming these APIs are classes defined in the respective modules
+
 Apple = AppleAPI()
 Carbon = CarbonAPI()
 SoundCloud = SoundAPI()
