@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnonXMusic import YouTube, app
-from AnonXMusic.core.call import Arank
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils.database import (
+from Arank_Music import YouTube, app
+from Arank_Music.core.call import Arank
+from Arank_Music.misc import SUDOERS, db
+from Arank_Music.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from AnonXMusic.utils.database import (
     music_on,
     set_loop,
 )
-from AnonXMusic.utils.decorators.language import languageCB
-from AnonXMusic.utils.formatters import seconds_to_min
-from AnonXMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from AnonXMusic.utils.stream.autoclear import auto_clean
-from AnonXMusic.utils.thumbnails import get_thumb
+from Arank_Music.utils.decorators.language import languageCB
+from Arank_Music.utils.formatters import seconds_to_min
+from Arank_Music.utils.inline import close_markup, stream_markup, stream_markup_timer
+from Arank_Music.utils.stream.autoclear import auto_clean
+from Arank_Music.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
