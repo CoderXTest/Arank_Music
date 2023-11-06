@@ -17,7 +17,7 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from Arank_Music import LOGGER, YouTube, app
+from Arank_Music.misc import LOGGER, YouTube, app
 from Arank_Music.misc import db
 from Arank_Music.utils.database import (
     add_active_chat,
