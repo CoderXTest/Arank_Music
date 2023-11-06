@@ -6,7 +6,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
 from Arank_Music import app
-from Arank_Music.core.call import Anony
+from Arank_Music.core.call import Arank
 from Arank_Music.misc import db
 from Arank_Music.utils.database import get_assistant, get_authuser_names, get_cmode
 from Arank_Music.utils.decorators import ActualAdminCB, AdminActual, language
