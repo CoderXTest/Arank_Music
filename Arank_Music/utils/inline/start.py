@@ -10,7 +10,7 @@ def start_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥺",
-                url=f"https://t.me/{@Arank_Music_Bot}?startgroup=true",
+                url=f"https://t.me/{Arank_Music_Bot}?startgroup=true",
             )
         ],
         [
