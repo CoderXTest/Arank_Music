@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from Arank_Music import LOGGER, app, userbot
-from Arank_Music.core.call import Neox
+from Arank_Music.core.call import Arank
 from Arank_Music.misc import sudo
 from Arank_Music.plugins import ALL_MODULES
 from Arank_Music.utils.database import get_banned_users, get_gbanned
