@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from Arank_Music import app
-from Arank_music.core.call import Arank
+from Arank_Music.core.call import Arank
 from Arank_Music.utils.database import is_music_playing, music_off
 from Arank_Music.utils.decorators import AdminRightsCheck
 from Arank_Music.utils.inline import close_markup
