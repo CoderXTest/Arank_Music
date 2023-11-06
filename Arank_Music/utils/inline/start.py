@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import config
 
 
-def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
+def start_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
