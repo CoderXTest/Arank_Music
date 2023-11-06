@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from Arank_Music import app
-from Arank_Music.core.call import Anony
+from Arank_Music.core.call import Arank
 from Arank_Music.utils import bot_sys_stats
 from Arank_Music.utils.decorators.language import language
 from Arank_Music.utils.inline import supp_markup
