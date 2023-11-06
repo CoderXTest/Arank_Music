@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from Arank_Music import app
-from Arank_Music.core.call import Anony, autoend
+from Arank_Music.core.call import Arank, autoend
 from Arank_Music.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Anony.stop_stream(chat_id)
+                    await Arank.stop_stream(chat_id)
                 except:
                     continue
                 try:
