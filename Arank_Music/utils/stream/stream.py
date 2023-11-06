@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from Arank_Music import Carbon, YouTube, app
-from Arank_Music.core.call import Anony
+from Arank_Music.core.call import Arank
 from Arank_Music.misc import db
 from Arank_Music.utils.database import add_active_video_chat, is_active_chat
 from Arank_Music.utils.exceptions import AssistantErr
@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await Anony.force_stop_stream(chat_id)
+        await Arank.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
