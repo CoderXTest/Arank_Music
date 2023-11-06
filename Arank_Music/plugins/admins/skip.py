@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from Arank_Music import YouTube, app
-from Arank_Music.core.call import Anony
+from Arank_Music.core.call import Arank
 from Arank_Music.misc import db
 from Arank_Music.utils.database import get_loop
 from Arank_Music.utils.decorators import AdminRightsCheck
@@ -48,7 +48,7 @@ async def skip(cli, message: Message, _, chat_id):
                                         ),
                                         reply_markup=close_markup(_),
                                     )
-                                    await Anony.stop_stream(chat_id)
+                                    await Arank.stop_stream(chat_id)
                                 except:
                                     return
                                 break
