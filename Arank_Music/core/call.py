@@ -18,7 +18,7 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from Arank_Music import LOGGER, YouTube, app
-from Arank_Music import db
+from Arank_Music.misc import db
 from Arank_Music.utils.database import (
     add_active_chat,
     add_active_video_chat,
