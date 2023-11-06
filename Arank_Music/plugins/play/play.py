@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from Arank_Music import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from Arank_Music.core.call import Anony
+from Arank_Music.core.call import Arank
 from Arank_Music.utils import seconds_to_min, time_to_seconds
 from Arank_Music.utils.channelplay import get_channeplayCB
 from Arank_Music.utils.decorators.language import languageCB
@@ -288,7 +288,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Anony.stream_call(url)
+                await Arank.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -502,7 +502,7 @@ async def play_music(client, CallbackQuery, _):
 
 
 @app.on_callback_query(filters.regex("danish21mousAdmin") & ~BANNED_USERS)
-async def anonymous_check(client, CallbackQuery):
+async def arankmusic_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
             "» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ :\n\nᴏᴘᴇɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs.\n-> ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs\n-> ᴄʟɪᴄᴋ ᴏɴ ʏᴏᴜʀ ɴᴀᴍᴇ\n-> ᴜɴᴄʜᴇᴄᴋ mr_danish ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs.",
