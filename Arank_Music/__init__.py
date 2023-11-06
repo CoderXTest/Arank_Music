@@ -1,4 +1,4 @@
-from Arank_Music.core.Arank_Music import SomeClass  # Adjust "SomeClass" to the specific class you want to import
+from Arank_Music.core.Arank_Music import Arank
 from Arank_Music.core.dir import dirr
 from Arank_Music.core.git import git
 from Arank_Music.core.userbot import Userbot
@@ -12,8 +12,8 @@ git()
 dbb()
 heroku()
 
-# Assuming Anony and Userbot classes are defined in their respective modules
-app = Anony()
+# Assuming Arank and Userbot classes are defined in their respective modules
+app = Arank()
 userbot = Userbot()
 
 from .platforms import *  # Importing all from the "platforms" module
