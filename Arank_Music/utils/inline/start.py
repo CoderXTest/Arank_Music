@@ -10,7 +10,7 @@ def start_panel(_):
         [
             InlineKeyboardButton(
                 text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥺",
-                url=f"https://t.me/{Arank_Music_Bot}?startgroup=true",
+                url=f"https://t.me/Arank_Music_Bot?startgroup=true",
             )
         ],
         [
@@ -31,7 +31,7 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥺",
-                url=f"https://t.me/{Arank_Music_Bot}?startgroup=true",
+                url=f"https://t.me/Arank_Music_Bot?startgroup=true",
             )
         ],
         [
