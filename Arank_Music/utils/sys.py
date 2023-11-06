@@ -3,7 +3,7 @@ import time
 import psutil
 
 from Arank_music.misc import _boot_
-from AnonXMusic.utils.formatters import get_readable_time
+from Arank_music.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
