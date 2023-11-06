@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from AnonXMusic import app
-from AnonXMusic.utils.database import (
+from Arank_Music import app
+from Arank_Music.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
