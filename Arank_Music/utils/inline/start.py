@@ -41,10 +41,10 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="♡ sᴜᴩᴩᴏʀᴛ ♡", url=config.SUPPORT_GROUP
+                text="♡ sᴜᴩᴩᴏʀᴛ ♡", url=https://t.me/Mr_Mrs_Krishna
             ),
             InlineKeyboardButton(
-                text="✗ ᴍᴀɪɴᴛᴀɪɴᴇʀ ✗", user_id=OWNER
+                text="✗ ᴍᴀɪɴᴛᴀɪɴᴇʀ ✗", user_id=1195997736
             )
         ],
      ]
