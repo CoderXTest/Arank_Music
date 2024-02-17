@@ -1,1 +1,1 @@
-python -m Arank_Music
+gunicorn app:app & python -m Arank_Music
