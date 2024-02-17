@@ -5,7 +5,8 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR .
+COPY . /app/
+WORKDIR /app/
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 CMD python -m Arank_Music
